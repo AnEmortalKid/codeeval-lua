@@ -2,7 +2,12 @@
 
 -- determines whether the given number is prime or not
 local function isPrime(n)
-  for i=2,n+1 do
+
+  if(math.fmod(n,2) == 0 and n~=2) then
+    return false
+  end
+  
+  for i=2,math.floor(n/2) do
     if(math.fmod(n,i) == 0 and i ~= n) then
       return false
     end
