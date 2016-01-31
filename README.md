@@ -5,6 +5,7 @@ a repository with lua solutions to codeeval challenges
 - fizzbuzz
 - prime palindrome
 - sum of primes
+- reverse words
 
 # Moderate
 
