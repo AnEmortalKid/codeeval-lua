@@ -1,3 +1,4 @@
+-- retrieves the 3 values from the given string
 function extract_vals(str)
   first = string.find(str," ",1, true)
   second = string.find(str," ", first+1, true)
