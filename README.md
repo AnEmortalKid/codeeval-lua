@@ -6,6 +6,7 @@ a repository with lua solutions to codeeval challenges
 - prime palindrome
 - sum of primes
 - reverse words
+- multiples
 
 # Moderate
 
